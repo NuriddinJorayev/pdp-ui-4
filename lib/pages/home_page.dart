@@ -84,8 +84,6 @@ class _HomeState extends State<Home> {
                          "100\$"))
                      .toList(),
                ),
-
-              // main panel
             ],
           ),
         ),
@@ -121,9 +119,11 @@ class _HomeState extends State<Home> {
       width: double.infinity,
       decoration: BoxDecoration(
           image: DecorationImage(image: AssetImage(image), fit: BoxFit.cover),
+        borderRadius: BorderRadius.circular(18.0)
       ),
       child: Container(
         decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(18.0),
             gradient: LinearGradient(
                 begin: Alignment.bottomRight,
 
